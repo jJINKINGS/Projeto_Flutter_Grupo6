@@ -89,8 +89,8 @@ class AddTaskScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Adicionar a lista'),
-        backgroundColor: Color.fromARGB(255, 27, 25, 25),
+        backgroundColor: const Color.fromARGB(255, 27, 25, 25),
+        title: Text('Atividade Flutter - Grupo 6'), foregroundColor: Colors.amber,
       ),
       body: Container(
         color: const Color.fromARGB(255, 104, 103, 103),
