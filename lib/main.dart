@@ -74,7 +74,7 @@ class _TaskListScreenState extends State<TaskListScreen> {
             }
           });
         },
-        child: Icon(Icons.add),
+        child: Icon(Icons.add), backgroundColor: Colors.amber,foregroundColor: Colors.black,
       ),
     );
   }
